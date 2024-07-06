@@ -29,6 +29,7 @@ pub fn App() -> impl IntoView {
         <Router>
             <Routes>
                 <Route path="/" view=Home/>
+                <Route path="/aoc-2023-solver/" view=Home/>
                 <Route path="/*" view=NotFound/>
             </Routes>
         </Router>
